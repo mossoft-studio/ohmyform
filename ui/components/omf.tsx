@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSettingsQuery } from '../graphql/query/settings.query'
-import scss from './omf.module.scss'
+// import scss from './omf.module.scss'
 
 export const Omf: React.FC = () => {
   const { data, loading } = useSettingsQuery()
