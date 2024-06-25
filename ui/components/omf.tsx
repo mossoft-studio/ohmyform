@@ -10,6 +10,6 @@ export const Omf: React.FC = () => {
   }
 
   return (
-      <div> </div>
+    <span>_</span>
   )
 }
