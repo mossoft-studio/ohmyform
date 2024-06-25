@@ -108,33 +108,33 @@ const AuthFooterInner: React.FC<Props> = (props) => {
           </Select.Option>
         ))}
       </Select>
-      {!loading && !data?.hideContrib.value && (
-        <>
-          <GitHubButton type="stargazers" namespace="ohmyform" repo="ohmyform" />
-          <Button
-            type={'link'}
-            target={'_blank'}
-            rel={'noreferrer'}
-            href={'https://www.ohmyform.com'}
-            style={{
-              color: '#FFF',
-            }}
-          >
-            OhMyForm
-          </Button>
-          <Button
-            type={'link'}
-            target={'_blank'}
-            rel={'noreferrer'}
-            href={'https://lokalise.com/'}
-            style={{
-              color: '#FFF',
-            }}
-          >
-            translated with Lokalize
-          </Button>
-        </>
-      )}
+      {/*{!loading && !data?.hideContrib.value && (*/}
+      {/*  <>*/}
+      {/*    <GitHubButton type="stargazers" namespace="ohmyform" repo="ohmyform" />*/}
+      {/*    <Button*/}
+      {/*      type={'link'}*/}
+      {/*      target={'_blank'}*/}
+      {/*      rel={'noreferrer'}*/}
+      {/*      href={'https://www.ohmyform.com'}*/}
+      {/*      style={{*/}
+      {/*        color: '#FFF',*/}
+      {/*      }}*/}
+      {/*    >*/}
+      {/*      OhMyForm*/}
+      {/*    </Button>*/}
+      {/*    <Button*/}
+      {/*      type={'link'}*/}
+      {/*      target={'_blank'}*/}
+      {/*      rel={'noreferrer'}*/}
+      {/*      href={'https://lokalise.com/'}*/}
+      {/*      style={{*/}
+      {/*        color: '#FFF',*/}
+      {/*      }}*/}
+      {/*    >*/}
+      {/*      translated with Lokalize*/}
+      {/*    </Button>*/}
+      {/*  </>*/}
+      {/*)}*/}
     </footer>
   )
 }

@@ -69,7 +69,7 @@ const Index: NextPage = () => {
         }}
       >
         <img
-          alt={'OhMyForm'}
+          alt={'logo'}
           src={require('../assets/images/logo_white.png?resize&size=512')}
           width={1608 / 4}
           height={530 / 4}

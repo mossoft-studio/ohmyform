@@ -3,6 +3,7 @@ import { NestFactory } from '@nestjs/core'
 import cors from 'cors'
 import { Logger } from 'nestjs-pino'
 import { AppModule } from './app.module'
+import {entities} from "./entity";
 
 void (async () => {
   const options: NestApplicationOptions =  {

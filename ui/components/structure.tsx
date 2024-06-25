@@ -177,7 +177,7 @@ export const Structure: FunctionComponent<Props> = (props) => {
             <img
               height={40}
               src={require('../assets/images/logo_white.png?resize&size=256')}
-              alt={'OhMyForm'}
+              alt={'logo'}
             />
           </div>
         </Space>
@@ -253,12 +253,12 @@ export const Structure: FunctionComponent<Props> = (props) => {
                 ))}
               </Select>
             </Menu.Item>
-            <Menu.Item style={{ display: 'flex', alignItems: 'center' }} key={'github'}>
-              <GitHubButton type="stargazers" namespace="ohmyform" repo="ohmyform" />
-            </Menu.Item>
-            <Menu.Item key={'version'}>
-              Version: <Tag color="gold">{process.env.version}</Tag>
-            </Menu.Item>
+            {/*<Menu.Item style={{ display: 'flex', alignItems: 'center' }} key={'github'}>*/}
+            {/*  <GitHubButton type="stargazers" namespace="ohmyform" repo="ohmyform" />*/}
+            {/*</Menu.Item>*/}
+            {/*<Menu.Item key={'version'}>*/}
+            {/*  Version: <Tag color="gold">{process.env.version}</Tag>*/}
+            {/*</Menu.Item>*/}
           </Menu>
         </Sider>
         <Layout
