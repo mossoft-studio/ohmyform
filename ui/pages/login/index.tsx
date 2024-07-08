@@ -92,7 +92,7 @@ const Index: NextPage = () => {
           padding: '10px',
           borderRadius: 20,
         }}>
-          <div style={{fontSize: 32, color: 'rgb(106 139 255)', fontWeight: 'medium', textAlign: 'center'}}>Вход</div>
+          <div style={{fontSize: 32, color: 'rgb(106 139 255)', fontWeight: 'medium', textAlign: 'center'}}>Вход V-ID</div>
           <Form.Item
             name="username"
             rules={[{required: true, message: t('validation:usernameRequired')}]}
