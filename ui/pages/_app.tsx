@@ -40,7 +40,7 @@ const App: AppType = ({ Component, pageProps }) => {
   return (
     <ApolloProvider client={getClient()}>
       <Head>
-        <title>OhMyForm</title>
+        <title>Form.Bi</title>
         <meta name="theme-color" content={'#4182e4'} />
       </Head>
       <Component {...pageProps} />
