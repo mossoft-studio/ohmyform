@@ -9,7 +9,5 @@ export const Omf: React.FC = () => {
     return null
   }
 
-  return (
-    <span>_</span>
-  )
+  return null
 }
