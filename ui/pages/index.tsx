@@ -21,6 +21,8 @@ const Index: NextPage = () => {
   const status = useStatusQuery()
 
   useEffect(() => {
+    router.replace("/auth")
+
     if (router.pathname !== window.location.pathname) {
       let href = router.asPath
       const as = router.asPath
