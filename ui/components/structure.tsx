@@ -262,7 +262,7 @@ export const Structure: FunctionComponent<Props> = (props) => {
           </Menu>
         </Sider>
         <Layout
-          style={{ padding: '0 24px 24px', minHeight: 500, height: '100%', overflow: 'auto', background: "#E9ECF6" }}
+          style={{ padding: '0 24px 24px', minHeight: 500, height: '100%', overflow: 'auto', background: '#E9ECF6' }}
         >
           {props.title && (
             <PageHeader

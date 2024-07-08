@@ -21,7 +21,9 @@ const Index: NextPage = () => {
   const status = useStatusQuery()
 
   useEffect(() => {
-    router.replace("/auth")
+    router.replace('/login').catch((e: Error) => {
+      console.error('failed redirect', e)
+    })
 
     if (router.pathname !== window.location.pathname) {
       let href = router.asPath
