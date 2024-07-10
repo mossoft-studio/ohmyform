@@ -41,7 +41,8 @@ const App: AppType = ({ Component, pageProps }) => {
     <ApolloProvider client={getClient()}>
       <Head>
         <title>Form.Bi</title>
-        <meta name="theme-color" content={'#4182e4'} />
+        <link rel="icon" href="/favicon.ico"/>
+        <meta name="theme-color" content={'#4182e4'}/>
       </Head>
       <Component {...pageProps} />
     </ApolloProvider>
